@@ -7,7 +7,7 @@ A simple project for demonstrating the use of [Shortbread](http://github.com/ssa
     sbt
     update
 
-#Running javascript tests
+#Running QUnit tests
 
     shob
     
