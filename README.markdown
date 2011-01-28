@@ -10,4 +10,13 @@ A simple project for demonstrating the use of [Shortbread](http://github.com/ssa
 #Running QUnit tests
 
     shob
+
+#Browser    
+
+ Uses the Firefox browser by default. Customize these options by overriding driverSeq in `project/build/Project.scala` file:
+    override def driverSeq:Seq[NamedDriver] = Seq(add_your_drivers_here) 
     
+Eg. If you want to run both Firefox and Chrome browsers, then remove the following line in `project/build/Project.scala`
+    override def driverSeq:Seq[NamedDriver] = Seq(DefaultFoxConfig.webDriver)
+
+A list of default browsers/drivers can be found in [DefaultDrivers](Shortbread/blob/master/src/main/scala/DefaultDrivers.scala). You can add a sequence of these drivers to driverSeq to run the QUnit tests in various browsers.
