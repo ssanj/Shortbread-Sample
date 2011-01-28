@@ -13,6 +13,10 @@ You need to first build and deploy Shortbread. Instructions can be found [here](
 #Running QUnit tests
 
     shob
+    
+#Location of QUnit tests
+
+ `src/test/webapp/scripts`   
 
 #Selecting which browsers to run
 
