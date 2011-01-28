@@ -11,9 +11,9 @@ A simple project for demonstrating the use of [Shortbread](http://github.com/ssa
 
     shob
 
-#Browser    
+#Selecting why browsers to run
 
- Uses the Firefox browser by default. Customize these options by overriding driverSeq in `project/build/Project.scala` file:
+ Firefox is the default browser. Customize which browsers run by overriding driverSeq in `project/build/Project.scala` file:
     override def driverSeq:Seq[NamedDriver] = Seq(add_your_drivers_here) 
     
 Eg. If you want to run both Firefox and Chrome browsers, then remove the following line in `project/build/Project.scala`
