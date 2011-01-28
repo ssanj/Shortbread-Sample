@@ -14,7 +14,7 @@ You need to first build and deploy Shortbread. Instructions can be found [here](
 
     shob
 
-#Selecting why browsers to run
+#Selecting which browsers to run
 
  Firefox is the default browser. Customize which browsers run by overriding driverSeq in `project/build/Project.scala` file:
     override def driverSeq:Seq[NamedDriver] = Seq(add_your_drivers_here) 
